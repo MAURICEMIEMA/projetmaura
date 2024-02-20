@@ -1,0 +1,1532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 5px;
+    background: #ddd;
+    box-sizing: border-box;
+}
+
+.patr1{
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+
+         /* la premiere partie */
+
+.grille1{
+    display: grid;
+    grid-template-columns: 3fr 8fr 1fr;
+    grid-auto-flow: dense;
+    column-gap: 20px;
+    width: auto;
+    height: auto;
+}
+
+.grid1{
+    background-color: white;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    padding-top: 200px;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+/* la collones a gauche */
+
+.petigauche{
+    padding: 30px 10px 5px 10px;
+
+}
+
+.profile{
+    padding-left: 5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profmau,.proffront{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 10px; */
+
+}
+
+.lesinconnus{
+    margin-left: 60px;
+    padding-top: 10px;
+}
+
+.fa-brands{
+    padding: 5px;
+    background: orange;
+    border-radius: 50%;
+}
+
+.lehome{
+    /* position: absolute;
+    top: 40%;
+    padding-left: 40px;
+    font-size: 30px; */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+.lehome > p> i{
+    
+    /* margin-bottom: 40px;
+    border-radius: 50%; */
+   
+
+}
+
+/* .lehome > i{
+    width: 100px;
+    height: 100px;
+
+} */
+
+.age{
+    width: 100%;
+    height: 25vh;
+  
+}
+ .block1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    grid-gap: 10px;
+    margin-top: 20px;
+    height: 20px;
+    margin-bottom: 50px;
+   
+}
+
+.bloc{
+    
+    width: 100%;
+    height: 20px;
+}
+
+.b1{
+    grid-column: span 2;
+    color: white;
+}
+
+.b2{
+    grid-column: span 2;
+    color: white;
+}
+
+.b3{
+    grid-column: span 2;
+    color: white;
+}
+
+.b4{
+    grid-column: span 2;
+    color: white;
+}
+
+.bg{
+    color: black;
+    background-color: orange;
+    width: 35px;
+}
+
+.b24{
+    position: absolute;
+    left: 22%;
+    color: black;
+}
+
+.bg{
+    color: black;
+    background-color: orange;
+    width: 35px;
+}
+
+.Residance{
+    color: black;
+    background-color: orange;
+    width: 74px;
+}
+
+.Freelance{
+    color: black;
+    background-color: orange;
+    width: 70px;
+}
+.Adresse{
+    color: black;
+    background-color: orange;
+    width: 65px;
+}
+
+.Avaliable{
+    position: absolute;
+    left: 19%;
+    color: green;
+}
+
+.Dhaka{
+    position: absolute;
+    left: 14%;
+    color: black;
+}
+
+
+/* languages */
+
+.skils1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bar{
+    margin-top: 15px;
+    width: 100%;
+    height: 6px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.bar .progress{
+    height: 100%;
+    border-radius: 10px;
+    background-color: orange;
+    border: 1px solid white;
+}
+
+.proge1{
+    width: 100%;
+}
+
+.proge2{
+    width: 80%;
+}
+
+.proge3{
+    width: 60%;
+}
+
+.progreser{
+    color: #333;
+    /* background-color: orange; */
+    /* width: 35px; */
+    margin-bottom: -1%;
+    padding-bottom: -1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.langue{
+    position: absolute;
+    left: 20%;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skils2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* la partie skils */
+
+.skils12{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.proge22{
+    width: 90%;
+}
+
+.proge23{
+    width: 85%;
+}
+
+.proge24{
+    width: 80%;
+}
+
+.proge25{
+    width: 75%;
+}
+
+.proge26{
+    width: 85%;
+}
+
+
+/* la partie extra skils */
+
+.Exraskils{
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.Exraskils > p{
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* le boutton Download */
+.download{
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.Dowlo{
+    padding: 8px 30px;
+    background: orange;
+    border: none;
+}
+
+
+
+
+
+/* la collones au milieux */
+
+.grand{
+    width: 100%;
+    height: 450px; 
+    padding-top: 1px;
+}
+
+.text{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: dense; 
+    grid-gap: 10px;
+    /* margin-top: 70px;  */
+    padding-right: 20px; 
+    padding-bottom: auto;
+    padding-left: 20px; 
+    padding-top: 5px;
+
+}
+
+.im2{
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+.cont{
+    width: 300px;
+}
+
+#HIREE{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: black;
+    background: orange;
+    margin-top: 15%;
+    border: 1px solid orange;
+}
+
+
+
+.gridd{
+    width: 100%;
+    height: auto;
+    font-family: 'sans-serif';
+}
+
+
+strong{
+    color: rgb(252, 165, 5);
+}
+
+.photo11{
+    width: 100%;
+    height: 90%;
+    top: 100px;
+    padding-top: -0%;
+}
+
+
+.pargrand{ 
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+
+} 
+
+#nan{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    display: none;
+
+}
+
+.l2 > .li2> a:hover{
+   color: orange;
+}
+
+.l2 > .li2{
+    padding: 2px;
+}
+
+
+#HIRE{
+
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: black;
+    background: orange;
+    margin-top: 15%;
+    border: 1px solid orange;
+    display: none;
+  
+}
+
+#HIRE:hover{
+    background-color: rgb(240, 190, 99);
+    transition: 0.5s;
+}
+
+   /* la grille qui est inclut dans la collone du millieu */
+.myservices{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    /* grid-gap: 10px; */
+    height: 50vh;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.myser{
+    background-color: black;
+    height: 20vh;
+}
+
+.vice1{
+    grid-column: span 3;
+    background-color: red;
+    justify-content: center;
+    height: 20vh;
+    padding: 10px 10px 10px 10px;
+    margin-top: 100px;
+    margin-top: 275px;
+    
+}
+
+.myservice{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* font-size: 3rem; */
+    padding: 10px 20px 5px 30px;
+}
+
+.myparagraphe{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding: 10px 20px 5px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 1rem; */
+}
+
+
+
+
+/* .vice1, h1{
+    display: flex;
+    justify-content: center;
+
+} */
+
+
+/* la deuxieme partie */
+
+.part2{
+    padding: 5px;
+    margin: 0;
+    height: 110vh;
+}
+
+.grille2{
+    margin: 10px 108px 10px 320px;
+}
+
+.part2grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.grilpart2{
+    background: white;
+}
+
+.price1{
+    grid-column: span 3;
+    height: 20vh;
+    padding: 10px 10px 10px 10px;
+    background-color: #ddd;
+}
+
+.titreprice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+
+.parprice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 5px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 1rem;
+    
+}
+
+
+
+.price2{
+    grid-row: span 2;
+}
+
+.h2price2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+.h1hour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.phour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+
+}
+
+.ledetail{
+    margin-top: 20px;
+    padding-left: 40px;
+    
+}
+.crocher{
+    margin-right: 10px;
+}
+
+.croix{
+    margin-right: 10px;
+    color: #333;
+}
+
+.ledetail, p{
+    margin-top: 10px;
+    
+}
+.ORDER{
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 10px;
+    border: none ;
+    margin-bottom: 10px;
+}
+
+
+
+.price3{
+    grid-row: span 2;
+    /* height: 40vh; */
+}
+
+.h3price3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.h2price3{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.milieux{
+    background: orange;
+}
+
+
+
+
+
+.price4{
+    grid-row: span 2;
+}
+
+.h2price4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+
+/* la troisieme partie */
+
+.part3{
+    padding: 5px;
+    margin: 0; 
+    height: 99vh;
+}
+
+.grille3{
+     margin: 10px 108px 10px 320px;
+}
+
+.grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+
+}
+
+.grillgrid3{
+    background: white;
+    /* height: 70px; */
+}
+
+.recomm1{
+    grid-column: span 3;
+    background: #ddd;
+}
+
+.titrerecomm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.parrecomm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 5px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 1rem;
+    
+}
+
+
+.recomm2{
+    grid-row: span 2;
+}
+
+.etoile{
+    color: orange;
+    font-size: 25px;
+    margin-left: 20px;
+
+}
+.h2Great{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pGreat{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.client{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.h2james1{
+    margin-top: 20px;
+}
+.recomm3{
+    grid-row: span 2;
+   
+}
+
+.recomm4{
+    grid-row: span 2;
+    
+}
+
+
+/* la quatrieme partie  */
+
+.part4{
+    padding: 5px;
+    margin: 0; 
+    height: auto;
+}
+
+.grille4{
+     margin: 10px 108px 10px 320px;
+}
+
+.education{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    margin-top: 40px;
+
+}
+
+.gridedu{
+    background-color: white;
+    height: auto;
+}
+
+.edu1{
+    grid-column: span 2;
+    background: #ddd;
+    margin-bottom: 30px;
+}
+
+
+.titreeduc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.pareduc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 5px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 1rem;
+    
+}
+
+.h3certifi{
+    padding: 15px;
+}
+
+.parcertifica{
+    padding: 0 15px 10px 15px;
+}
+
+.parStudent{
+    padding-left: 20px;
+}
+
+.jan{
+    color: white;
+    background: rgb(243, 125, 8);
+    border: 1px solid rgb(243, 125, 8);
+    padding: 2px;
+}
+
+/* la cinquieme partie */
+
+
+.part5{
+    padding: 5px;
+    margin: 0; 
+    height: auto;
+}
+
+.grille5{
+     margin: 10px 108px 10px 320px;
+}
+
+.WorkHistory{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    margin-top: 40px;
+
+}
+
+.gridWork{
+    background-color: white;
+    height: auto;
+}
+
+.Work1{
+    grid-column: span 2;
+    background: #ddd;
+    margin-bottom: 30px;
+}
+
+
+.titreWork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.parWork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px 5px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-size: 1rem;
+    
+}
+
+.h3Work{
+    padding: 15px;
+}
+
+.parcertifica{
+    padding: 0 15px 10px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.parStudent{
+    padding-left: 20px;
+}
+
+.jan{
+    color: white;
+    background: rgb(243, 125, 8);
+    border: 1px solid rgb(243, 125, 8);
+    padding: 2px;
+}
+
+
+/* la sixieme partie */
+    
+.part6{
+    padding: 5px;
+    margin: 0; 
+    height: auto;
+}
+
+.grille6{
+     margin: 10px 108px 10px 320px;
+}
+
+.grillportf{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin-top: 40px;
+
+}
+
+.gridport{
+    background: white;
+    height: auto;
+    width: 100%;
+
+}
+
+.port1{
+    grid-column: span 3;
+    background: #ddd;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+
+
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.All{
+    color: orange;
+}
+
+ul, li, a{
+    text-decoration-line: none;
+}
+
+ul, li, h3, a{
+    color: black;
+}
+
+
+.griport{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+  /* la septieme partie */
+
+.part7{
+    padding: 5px;
+    margin: 0; 
+    height: auto;
+}
+
+.grille7{
+     margin: 10px 108px 10px 320px;
+}
+
+.grillblog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin-top: 40px;
+
+}
+
+.gridblog{
+    background: white;
+}
+
+.blog1{
+    grid-column: span 3;
+    background: #ddd;
+   
+}
+
+.imblog{
+    object-fit: cover;
+    width: 100%;
+    height: 25vh;
+}
+
+.textblog{
+    padding: 10px;
+}
+
+/* la huitieme partie */
+
+.part8{
+    padding: 5px;
+    margin: 0; 
+    height: 50vh;
+}
+
+.grille8{
+     margin: 10px 108px 10px 320px;
+}
+
+.grillform{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin-top: 40px;
+}
+
+.gridform{
+    background: white;
+    height: auto;
+    padding: 10px;
+}
+
+
+.forme1{
+    height: 60px;
+    background-color: #ddd;
+    padding-left: 10px;
+}
+
+.forme2{
+    grid-row: span 3;
+    padding: 10px;
+
+}
+
+.from{
+    margin-top: 20px;
+}
+.fotmulaire{
+    padding-bottom: 2%;
+    border: none;
+    background: #ddd;
+}
+input{
+    padding-right: 70%;
+    
+}
+
+.Message{
+    padding-bottom: 20%;
+    background: #ddd;
+    border: none;
+}
+
+.send{
+    margin-top: 20px;
+    padding: 5px 10px;
+    background: orange;
+    border: none;
+}
+
+.blockform1{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: auto;
+    grid-auto-flow: dense;
+    /* column-gap: 10px; */
+    gap: 5px;
+    margin-top: 30px;
+    /* margin-bottom: 50px; */
+   
+}
+
+.information{
+    /* height: 40px; */
+    width: 100%;
+
+}
+
+.jac{
+    display: flex;
+    justify-content: end;
+}
+.info{
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+
+}
+
+        /* le footer */
+
+.footer{
+    padding: 5px;
+    margin: 0; 
+    height: 50vh; 
+}
+
+.foot{
+     margin: 10px 108px 10px 320px;
+}
+
+.gridfoot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin-top: 40px;
+
+}
+
+.grillefooter{
+    width: 100%;
+    height: auto;
+}
+
+.map{
+    grid-column: span 4;
+}
+
+.immap{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* la partie de la responsive */
+
+@media screen and (max-width:1024px) {
+    .grille1{
+        display: flex;
+        width: 100%;
+        height: 90vh;
+        gap: 20px;
+        padding: 5px;
+        flex-direction: row;
+        
+    }
+
+    #HIRE{
+        display: block;
+    }
+
+    .droit4{
+         display: none;
+    }
+
+    .grand{
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: none;
+    }
+    .petigauche {
+        display: none;
+        
+    }
+
+
+
+    /* la deuxieme partie */
+
+    .part2{
+        height: 150vh;
+       
+        
+    }
+
+
+
+    .grille2{
+        margin: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        /* height: auto; */
+    }
+
+    .parprice{
+        margin-bottom: 20%;
+    }
+
+    .price2, .price3, .price4{
+            margin-top: 20%;
+            display: flex;
+            flex-direction: column;
+    }
+    .grilpart2{ 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    /* la troisieme partie */
+        .part3{
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+        }
+        .grille3{
+            margin: 5px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            gap: 15px;
+            object-fit: cover;
+            
+        }
+        .recomm1{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin: none;
+            object-fit: cover;
+        }
+
+
+    /* la quatrieme partie */
+    .grille4{
+        margin: 10px;
+        width: 100%;
+    }
+
+    /* la cinqieme partie */
+
+    .grille5{
+        margin: 10px;
+        width: 100%;
+    }
+
+    /* la sixieme partie */
+    .grille6{
+        margin: 10px;
+        width: 100%;
+    }
+
+    /* la septieme partie */
+    .grille7{
+        margin: 10px;
+        width: 100%;
+    }
+
+    /* la huitieme partie */
+
+    .grille8{
+        margin: 10px;
+        width: 100%;
+    }
+
+    .fotmulaire, .Message{
+        width: 30%;
+    }
+    .blockform1{
+        margin: 10px;
+        width: 100%;
+    } 
+
+    .gridform{
+        padding-right: 10px;
+    }
+    .foot{
+        margin: 10px;
+        width: 100%;
+    }
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* pour les android */
+
+@media only screen and (max-width: 480px) {
+    
+    .grille1{
+        display: flex;
+        /* flex-wrap: wrap; */
+        width: 100%;
+        height: auto;
+        gap: 20px;
+        padding: 5px;
+        flex-direction: row;
+        
+    }
+    .photo11{
+        display: none;
+    }
+
+
+    .droit4{
+         display: none;
+    }
+
+    .grand{
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: none;
+    }
+
+    .gridd{
+        display: none;
+    }
+
+    #container{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .im2{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+
+    }
+
+
+
+
+
+
+
+    /* .none{
+        display: block;
+        
+    } */
+    .petigauche {
+        display: none;
+        
+    }
+
+
+
+    /* la deuxieme partie */
+
+    .part2{
+        height: 100vh;
+
+    }
+    .grille2{
+        margin: 5px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .part2grid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+       
+    .price1{
+        margin-bottom:-10 px;
+    }
+
+    .price3, .price4{
+        margin-top: 1%;
+    }
+    
+     /* la troisieme partie */
+     .part3{
+        margin-top: 380%;
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .grille3{
+        margin: 5px;
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+        /* height: auto; */
+        gap: 15px;
+        object-fit: cover;
+        margin-top: -90%;
+
+    }
+    .recomm1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* margin-top: -90%; */
+        object-fit: cover;
+    }
+
+    .titrerecomm{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .grid3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        /* margin-top: -100%; */
+    }
+
+     /* la quatrieme partie */
+     .part4{
+        margin-top: 40%;
+     }
+     .grille4{
+        /* margin: 10px; */
+        width: 100%;
+    }
+
+    .education{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edu2{
+        margin-bottom: 10px;
+    }
+
+
+    /* la cinqieme partie */
+
+    .grille5{
+        width: 100%;
+    }
+
+    .WorkHistory{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Work2{
+        margin-bottom: 10px;
+    }
+
+    /* la sixieme partie */
+    .grille6{
+        margin: 10px;
+        width: 100%;
+    }
+
+    .griport:hover{
+        /* color: red; */
+        box-shadow: 5px 5px 10px 5px white;
+        transition: 0.5s;
+       
+    }
+    .gridport{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+
+    /* la septieme partie */
+    .grille7{
+        margin: 10px;
+        width: 100%;
+        /* display: none; */
+    }
+
+    .grillblog{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+
+    /* la huitieme partie */
+
+    .grille8{
+        width: 100%;
+        height: auto;
+    }
+
+    .fotmulaire, .Message{
+        width: 30%;
+    }
+
+    .forme2{
+        height: 70vh;
+    }
+
+
+    .grillform{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+
+
+    .blockform1{
+        margin: 10px;
+        width: 100%;
+
+    } 
+
+    .gridform{
+        padding-right: 10px;
+    }
+    .foot{
+        width: 100%;
+    }
+
+   
+}
+
+
+
+
+
+
